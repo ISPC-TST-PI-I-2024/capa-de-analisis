@@ -48,7 +48,7 @@ Cada endpoint soporta operaciones CRUD. Ver la documentación para detalles espe
 Se requiere una clave de API para todas las solicitudes. La clave debe ser incluida en el encabezado `X-API-KEY`. Claves válidas incluyen `jade`, `opalo`, `rubi`, `topaz`, y `plata`.
 
 ```bash
-curl -H "X-API-KEY: jade" https://api_jade.server.gonaiot.com/usuarios
+curl -H "X-API-KEY: jade" https://api.gonaiot.com/jade/usuarios/
 ```
 
 ## Licencia
